@@ -1,0 +1,4 @@
+---
+- name: Create File
+  become: yes
+  ansible.builtin.script: "/home/ubuntu/ansible-playbook/ansible-playbook-to-run-shell-script/roles/createfile/createfile.sh"

@@ -1,0 +1,6 @@
+---
+- name: Install Nginx to the remote Server
+  hosts: all
+  remote_user: ubuntu
+  roles:
+          - nginx
